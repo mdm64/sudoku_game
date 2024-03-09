@@ -1,0 +1,41 @@
+body {
+    background-image: url(bckgrndImg.jpg);
+    background-size: 100% 100%;
+}
+h1 {
+    background-color: darkgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    border-radius: 10px;
+    padding: 10px;
+    margin:15px;
+    color: rgb(61, 49, 49);
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#grid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 530px;
+    height: 519px;
+    align-items: center;
+    gap: 1px;
+    border: solid;
+}
+
+button {
+    margin-top: 15px;
+    padding: 2px;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    font-size: large;
+    border-radius: 5px;
+    background-color: darkgrey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  rgb(61, 49, 49);
+}
